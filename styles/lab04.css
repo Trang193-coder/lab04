@@ -10,7 +10,8 @@ last modified: [enter date]
 
 description: [html files it refers to (if known)]
 
-*/<style>
+*/
+<style>
 * { font-family: calibri, sans-serif;
     color:#2F4F4F }  
     aside, footer {
@@ -26,19 +27,18 @@ h2{
     font-size:1.5em;
     font-weight:bold;
 }
+ol ul {
+  list-style-type: square; 
+}
 nav {
-    background: #f0f0f0;
-    list-style-type:none;
-    display:flex;
-    padding:10px;
-   gap: 15px;
-    }
+    border-bottom: 1px solid #666;
+    padding:10px 0;
+   }
    nav a{
         text-decoration:none;
         color:#333;
-        padding: 8px 12px;
-        border:1px solid #333;
-        background: white;
+        margin-right: 15px;
+        font-weight:bold
     }
     nav a:hover{
         background:#ddd;
@@ -47,13 +47,13 @@ nav {
     }
 
 .special {
-    color: darkorange;   /* màu cam đậm */
-    font-weight: bold;   /* in đậm */
+    color: darkorange;   
+    font-weight: bold;   
 }
     table{
         border-collapse:collapse;
         width:50%;
-        text-align:centre;
+        text-align:center;
     }
     table,th,tr{
         border:2px solid black;
@@ -66,7 +66,9 @@ aside:hover {
     display: none;
 }
 nav a:hover {
-    background-color: lightblue;
-    border-color: darkblue;
+   background-color: #e6f7ff; 
+  border-color: #0a4f9c;  
+  color: #03203a;   
 }
+
 </style>
