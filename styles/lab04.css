@@ -1,0 +1,72 @@
+/*
+
+filename: [your name]
+
+author: [your name]
+
+created: [enter date]
+
+last modified: [enter date]
+
+description: [html files it refers to (if known)]
+
+*/<style>
+* { font-family: calibri, sans-serif;
+    color:#2F4F4F }  
+    aside, footer {
+    font-style: italic;
+}   
+h1{
+    color:blueviolet;
+    font-size:2em;
+    font-weight:bold;
+}
+h2{
+    color:darkcyan;
+    font-size:1.5em;
+    font-weight:bold;
+}
+nav {
+    background: #f0f0f0;
+    list-style-type:none;
+    display:flex;
+    padding:10px;
+   gap: 15px;
+    }
+   nav a{
+        text-decoration:none;
+        color:#333;
+        padding: 8px 12px;
+        border:1px solid #333;
+        background: white;
+    }
+    nav a:hover{
+        background:#ddd;
+    }
+    h3{color:darkred;
+    }
+
+.special {
+    color: darkorange;   /* màu cam đậm */
+    font-weight: bold;   /* in đậm */
+}
+    table{
+        border-collapse:collapse;
+        width:50%;
+        text-align:centre;
+    }
+    table,th,tr{
+        border:2px solid black;
+        padding:10px;
+    }
+    #images{
+    text-align: center;
+}
+aside:hover {
+    display: none;
+}
+nav a:hover {
+    background-color: lightblue;
+    border-color: darkblue;
+}
+</style>
